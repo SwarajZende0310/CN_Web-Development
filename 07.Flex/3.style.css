@@ -1,0 +1,41 @@
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    display:flex;
+
+    justify-content: center;
+    /* Default(flex-start) == element start from the left*/
+    /* flex-end == element start from right */
+    /* center == elements to the center*/
+    /* space-around == equal space around every element */
+    /* space-between ==  equal spaces between the elements*/
+
+    align-items: center;
+    /* --- Works on axis perpendicular to flex direction--- */
+    /* stretch(default) == strecths the flex till end of cross axis*/
+    /* flex-start == brings it to start of cross axis */
+    /* flex-end == brings it to end of cross axis */
+    /* center == brings it to center of cross axis */
+    /* baseline ==  aligns all the div along the baseline*/
+}
+
+#container div{
+    height:100px;
+    width:100px;
+}
+
+#div1{
+    background-color:cyan;
+    /* margin: 10px; */
+}
+
+#div2{
+    background-color: red;
+    /* margin: 20px; */
+}
+
+#div3{
+    background-color: grey;
+    /* margin:50px; */
+}

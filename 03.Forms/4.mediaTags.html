@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tags</title>
+</head>
+<body>
+    <p>Rick Rolled Music mp3 files</p>
+    <audio src="static/RickRolledMusic.MP3" controls></audio>
+    <br>
+    <!-- When we have multiple source types so that atleast one works -->
+    <p> Same Audio File with multiple sources</p>
+    <audio controls >
+        <source src="static/RickRolledMusic.MP3" type="audio/mp3">
+        <source src="static/RickRolledMusic.ogg" type="audio/ogg">
+    </audio>
+
+    <!-- Video Tag -->
+    <p>Video Tag with single source</p>
+    <video src="static/RickRolledVideo.mp4" height="300" width="400" controls></video>
+    <!-- When we have multiple source types so that atleast one works -->
+    <p> Same Video File with multiple sources</p>
+    <video controls autoplay>
+        <source src="static/RickRolledVideo.mp4" type="video/mp4">
+        Browser is not able to show the video only appears if browser not able to open video
+    </video>
+
+    <!-- Embed YT Video -->
+    <iframe src="https://www.youtube.com/embed/zDKBbyi6wJU" width="400" height="300"></iframe>
+
+    <!-- Figure tag -->
+    <figure>
+        <img src="static/logo_switchtocode.png">
+        <figcaption>Logo Image</figcaption>
+    </figure>
+</body>
+</html>

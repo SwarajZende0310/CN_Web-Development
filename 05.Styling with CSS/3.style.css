@@ -1,0 +1,14 @@
+#logo-img-container{
+    height:100vh;
+    width:100vw;
+    background-image: url("image/macbook_mouse.jpg")/*,url("image/logo_switchtocode.png")*/;
+    background-repeat: no-repeat;/*repeat-x ==repeat in x axis;  repeat-y ==repeat in y axis*/
+    /* background-position: center; */
+    background-size:cover;/*contain == contain into the the division*/
+    /* background-size: 200px 300px; */
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+}
+p{
+    background-color: red;
+}

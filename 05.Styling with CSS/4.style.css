@@ -1,0 +1,18 @@
+#div1{
+    background-color: red;
+    height:200px;
+    width:200px;
+}
+#div2{
+    background-color: cyan;
+    height:200px;
+    width:200px;
+    margin-left: -4px;/* added as we have it illine there is 4px margin between two inline elements*/
+}
+span{
+    display: block;/*block ==> starts in new line always*/
+}
+div{
+    /* display: inline; only occupies the space required for the elemnts in the div and cannot add vertical padding and marign */
+    display:inline-block;
+}

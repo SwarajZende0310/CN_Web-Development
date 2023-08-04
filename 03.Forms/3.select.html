@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DropDown List,Text Area,Buttons</title>
+</head>
+<body>
+    <form action="" method=""><!-- Action we have tp enter the url to which we have to send the data && Method has 2 types 'get'(to get data from database and not secure as added to url) and 'post'(post the entered data much secure than get) -->
+        <p>Month</p>
+        <select name="month_selected" multiple>
+            <optgroup>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </optgroup>
+            <option selected>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+        </select>
+        <br>
+        <input type="submit">
+
+        <!-- To take multiple lines of input -->
+        <p>Share your Experience</p>
+        <textarea name="experience" rows="10" cols="30"></textarea>
+        <br>
+
+        <!-- To add Button -->
+        <input type="button" value="button 1">
+        <!-- OR -->
+        <button type="button">button 2</button> <!-- type can have 3 types submit(default),button,reset(resets all the values selected) -->
+        <button type="button"><img src="static/logo_switchtocode.png"></button><!--  Using image as button -->
+    </form>
+</body>
+</html>

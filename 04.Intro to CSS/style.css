@@ -1,0 +1,49 @@
+p{
+    color:blue;
+    /* font-family: sans-serif; */
+}
+h1{
+    font-size: 40px;
+    /* font-family: sans-serif; */
+}
+
+/* Grouping common selector together */
+p,h1{
+    font-family: sans-serif;
+}
+
+h4{
+    /* Making all the h4 heading in uppercase  */
+    text-transform: lowercase;
+} 
+
+/* Making class to apply css to particular tags */
+.lower{
+    /* Can contain  multiple features */
+    text-transform: lowercase;
+}
+
+/* .upper{
+    text-transform: uppercase;
+}
+
+.cursive{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+/* ID selector for applying CSS to particular id */
+#blog-desc{
+    color:aquamarine;
+}
+
+/* Nesting */
+li h4{
+    /* It will be applied to all the elements of list items and to the h4 tags only */
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* On hover over the content with "blog-title" id the color will change to orange*/
+#blog-title:hover{
+    color:orange;
+}

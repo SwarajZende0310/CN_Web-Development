@@ -1,0 +1,52 @@
+#div1{
+    /* Relative height and width using vh(view port height) and vw(view port width) in percent*/
+    height:75vh;
+    width:75vw;
+    /* height: 4rem;wrt font-size of root html page */
+    /* width: 6rem; */
+    /* Specifying color in words */
+    /* background-color:red;  */ 
+
+    /* Specifying color in hexadecimal */
+    /* background-color:#ffff00; */
+
+    /* Specifying color in RGB values  */
+    /* background-color:rgb(255, 0, 230); */
+
+    /* Specifying color in RGB values with alpha(opacity --> 0 - 1 )*/
+    /* background-color:rgba(255, 0, 230,0.7); */
+
+    /* Specifying color in HSL(HSV) values */
+    /* background-color:hsl(255, 94%, 53% ); */
+
+    /* Specifying color in HSV values with alpha(opacity --> 0 - 1 )*/
+    background-color:hsla(255, 94%, 53% ,0.8);
+
+    /* Adding Border to an element */
+    /* border-width: 20px;
+    border-style: groove;
+    border-color: red; */
+    border: 4px solid red;
+    border-radius: 4px;/*For rounded borders*/
+    /* margin: 4px 40px; */
+    /* margin-top: 50px; */
+    margin: auto;/* auto places it in center */
+    padding: 40px 20px 10px 5px;
+}
+#div2{
+    /* Dimensions relative to the parent */
+    /* height:2em;
+    width:3em; */
+    height:50%;
+    width:50%;
+    background-color: cyan;
+}
+
+#div3{
+    height:75vh;
+    width:75vw;
+    background-color: green;
+}
+#para{
+    border-left: 8px groove rgb(68, 3, 244);
+}

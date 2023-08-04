@@ -1,0 +1,11 @@
+#sample-para{
+    font-size: 20px;
+    color: blue;
+    font-weight: lighter;/*(100-900)*/
+    text-align: center;
+    line-height: 30px;
+    /*word-spacing: 0cap;*/
+    text-transform: capitalize;
+    text-decoration: line-through;
+    font-style: italic;
+}
